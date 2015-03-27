@@ -23,6 +23,7 @@ module Rack
         HTTP_REFERER
         ORIGINAL_FULLPATH
         ORIGINAL_SCRIPT_NAME
+        HTTP_COOKIE
     )
 
     SANITIZABLE_CONTENT_TYPES = %w(
